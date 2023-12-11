@@ -37,3 +37,25 @@ Speech recognition is a fundamental component of many applications, including vo
    ```bash
    git clone https://github.com/alwaz-shahid/whisper-asr-cli.git
    cd whisper-asr-cli
+
+
+2. Install dependencies:
+
+- pip install -r requirements.txt
+Run the CLI:
+
+- python main.py
+  
+3. Configuration
+- The sample rate and maximum recording duration can be configured in asr/asr_manager.py.
+- Default output file path and recording duration are set in main.py.
+
+4. Contributing
+- Contributions are welcome! Feel free to open issues, submit feature requests, or create pull requests.
+
+5. License
+- This project is licensed under the MIT License.
+
+6. Acknowledgments
+- OpenAI for the Whisper ASR model.
+- Developers of the libraries and tools used in this project.
