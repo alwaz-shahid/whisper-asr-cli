@@ -39,12 +39,11 @@ Speech recognition is a fundamental component of many applications, including vo
    cd whisper-asr-cli
 
 
-2. Install dependencies:
-
-- pip install -r requirements.txt
-Run the CLI:
-
-- python main.py
+2. Install dependencies and run the CLI:
+```
+pip install -r requirements.txt
+python main.py
+```
   
 3. Configuration
 - The sample rate and maximum recording duration can be configured in asr/asr_manager.py.
